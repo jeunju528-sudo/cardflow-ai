@@ -1,0 +1,4 @@
+tx_timestamp,amount,currency,country,channel,merchant_id,result_code,latency_ms
+2025-07-01T10:03:22Z,45000,KRW,KR,APP,M12345,00,182
+2025-07-01T10:04:11Z,270000,KRW,KR,WEB,M88990,05,931
+2025-07-02T12:33:05Z,120000,KRW,US,APP,M55555,00,420
