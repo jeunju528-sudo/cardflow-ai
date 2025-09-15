@@ -1,5 +1,17 @@
 # UI ↔ REST API Mapping v0.1
 
+## API 명세
+- POST /api/auth/register : 사용자 등록
+- POST /api/auth/login : 로그인 → JWT 발급
+- POST /api/import/transactions : CSV 업로드 → 배치 실행
+- GET /api/import/{jobId}/status : 배치 진행 상태 조회
+- GET /api/tx : 거래 목록 조회 (필터/페이징)
+- GET /api/stats/approval : 승인율/거절율 통계
+- GET /api/stats/errors : 에러코드/가맹점 TOP N
+- GET /api/stats/perf : 지연 시간 통계
+- POST /api/ai/insight : AI 인사이트 생성
+
+
 ## 공통
 - Auth: Authorization: Bearer <JWT>
 - Error 포맷: {timestamp, path, status, code, message, details}
