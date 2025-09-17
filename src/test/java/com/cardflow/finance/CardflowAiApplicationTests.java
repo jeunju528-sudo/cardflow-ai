@@ -1,4 +1,4 @@
-package com.cardflow.cardflow_ai;
+package com.cardflow.finance;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
